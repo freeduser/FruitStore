@@ -98,12 +98,12 @@ public class FruitUI {
         DecimalFormat df = new DecimalFormat("#0.00");
         String tol = df.format(toltal);    //返回值为string类型
         if (sc.next().equals("y")) {
-            System.out.println("**********欢迎光临不要钱水果摊儿**********");
+            System.out.println("************欢迎光临不要钱水果摊儿************");
             System.out.println("您购买了如下商品:________________________");
             System.out.println(Manager.fruisIfo());   //商品信息
             System.out.println("总花费：￥" + df.format(toltal) );
             System.out.println("当前日期：\t\t" + sd.format(new Date()));
-            System.out.println("***********************大冲分店祝您生活愉快");
+            System.out.println("***************************大冲分店祝您生活愉快");
         }else {
             System.out.println("************大冲分店祝您生活愉快***********");
         }
